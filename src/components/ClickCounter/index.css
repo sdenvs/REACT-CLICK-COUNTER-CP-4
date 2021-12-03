@@ -1,1 +1,49 @@
 /* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.bgContainer {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterNo {
+  color: #c20a72;
+}
+.button {
+  width: 100px;
+  height: 35px;
+  color: #f1f5f8;
+  background-color: #007bff;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+@media (max-width: 767px) {
+  .paragraph {
+    color: #2d3a35;
+    font-size: 16px;
+  }
+  .heading {
+    color: #2d3a35;
+    font-size: 28px;
+  }
+}
+@media (min-width: 768px) {
+  .paragraph {
+    color: #2d3a35;
+    font-size: 20px;
+  }
+  .heading {
+    color: #2d3a35;
+    font-size: 65px;
+  }
+}
